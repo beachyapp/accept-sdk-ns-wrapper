@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AcceptNSProtocol"
+- "AcceptNSRequest"
+- "AcceptNSEnvironment"
+- "AcceptNSConfig"
+- "AcceptNS"
+provides-nominal:
+- "8AcceptNS0A10NSProtocolP"
+- "8AcceptNS0A9NSRequestC"
+- "8AcceptNS0A13NSEnvironmentO"
+- "8AcceptNS0A8NSConfigC"
+- "8AcceptNSAAC"
+provides-member:
+- ["8AcceptNS0A10NSProtocolP", ""]
+- ["8AcceptNS0A9NSRequestC", ""]
+- ["8AcceptNS0A13NSEnvironmentO", ""]
+- ["8AcceptNS0A8NSConfigC", ""]
+- ["8AcceptNSAAC", ""]
+provides-dynamic-lookup:
+- "cardNumber"
+- "clientKey"
+- "clientName"
+- "cvc"
+- "delegate"
+- "didCallGetToken"
+- "environment"
+- "expMonth"
+- "expYear"
+- "getTestToken"
+- "getToken"
+- "shared"
+depends-top-level:
+- !private "+"
+- "=="
+- "AcceptNS"
+- "AcceptNSConfig"
+- "AcceptNSEnvironment"
+- "AcceptNSProtocol"
+- "AcceptNSRequest"
+- !private "AcceptSDKEnvironment"
+- !private "AcceptSDKErrorResponse"
+- !private "AcceptSDKHandler"
+- !private "AcceptSDKRequest"
+- !private "AcceptSDKTokenResponse"
+- "AssignmentPrecedence"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "Void"
+- !private "debugPrint"
+- !private "~="
+depends-member:
+- ["8AcceptNSAAC", "AcceptNS"]
+- ["8AcceptNSAAC", "AcceptNSConfig"]
+- ["8AcceptNSAAC", "AcceptNSProtocol"]
+- ["8AcceptNSAAC", "AcceptNSRequest"]
+- !private ["8AcceptNSAAC", "AcceptSDKEnvironment"]
+- !private ["8AcceptNSAAC", "AcceptSDKErrorResponse"]
+- !private ["8AcceptNSAAC", "AcceptSDKHandler"]
+- !private ["8AcceptNSAAC", "AcceptSDKRequest"]
+- !private ["8AcceptNSAAC", "AcceptSDKTokenResponse"]
+- ["8AcceptNSAAC", "String"]
+- ["8AcceptNSAAC", "Void"]
+- !private ["8AcceptNSAAC", "debugPrint"]
+- ["8AcceptNSAAC", "deinit"]
+- ["8AcceptNSAAC", "delegate"]
+- ["8AcceptNSAAC", "getTestToken"]
+- ["8AcceptNSAAC", "getToken"]
+- ["8AcceptNSAAC", "init"]
+- ["8AcceptNSAAC", "shared"]
+- ["8AcceptNS0A8NSConfigC", "AcceptNSEnvironment"]
+- ["8AcceptNS0A8NSConfigC", "String"]
+- ["8AcceptNS0A8NSConfigC", "clientKey"]
+- ["8AcceptNS0A8NSConfigC", "clientName"]
+- ["8AcceptNS0A8NSConfigC", "deinit"]
+- ["8AcceptNS0A8NSConfigC", "environment"]
+- ["8AcceptNS0A8NSConfigC", "init"]
+- ["8AcceptNS0A13NSEnvironmentO", "ENV_LIVE"]
+- ["8AcceptNS0A13NSEnvironmentO", "ENV_TEST"]
+- ["8AcceptNS0A13NSEnvironmentO", "RawValue"]
+- ["8AcceptNS0A13NSEnvironmentO", "_Default_RawValue"]
+- ["8AcceptNS0A13NSEnvironmentO", "deinit"]
+- ["8AcceptNS0A13NSEnvironmentO", "hashValue"]
+- ["8AcceptNS0A13NSEnvironmentO", "init"]
+- ["8AcceptNS0A13NSEnvironmentO", "rawValue"]
+- ["8AcceptNS0A10NSProtocolP", "didCallGetToken"]
+- ["8AcceptNS0A9NSRequestC", "String"]
+- ["8AcceptNS0A9NSRequestC", "cardNumber"]
+- ["8AcceptNS0A9NSRequestC", "cvc"]
+- ["8AcceptNS0A9NSRequestC", "deinit"]
+- ["8AcceptNS0A9NSRequestC", "expMonth"]
+- ["8AcceptNS0A9NSRequestC", "expYear"]
+- ["8AcceptNS0A9NSRequestC", "init"]
+- !private ["9AcceptSDK0A14SDKEnvironmentO", "ENV_LIVE"]
+- !private ["9AcceptSDK0A14SDKEnvironmentO", "ENV_TEST"]
+- !private ["9AcceptSDK0A16SDKErrorResponseC", "getMessages"]
+- !private ["9AcceptSDK0A10SDKHandlerC", "getTokenWithRequest"]
+- !private ["9AcceptSDK0A10SDKHandlerC", "init"]
+- !private ["9AcceptSDK0A10SDKRequestC", "init"]
+- !private ["9AcceptSDK0A10SDKRequestC", "merchantAuthentication"]
+- !private ["9AcceptSDK0A10SDKRequestC", "securePaymentContainerRequest"]
+- !private ["9AcceptSDK0A16SDKTokenResponseC", "getMessages"]
+- !private ["9AcceptSDK0A16SDKTokenResponseC", "getOpaqueData"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "AcceptNS"]
+- !private ["s7CVarArgP", "AcceptSDKEnvironment"]
+- !private ["s7CVarArgP", "AcceptSDKHandler"]
+- !private ["s7CVarArgP", "AcceptSDKRequest"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "cardCode"]
+- !private ["s7CVarArgP", "cardNumber"]
+- !private ["s7CVarArgP", "clientKey"]
+- !private ["s7CVarArgP", "clientName"]
+- !private ["s7CVarArgP", "cvc"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "environment"]
+- !private ["s7CVarArgP", "expMonth"]
+- !private ["s7CVarArgP", "expYear"]
+- !private ["s7CVarArgP", "expirationMonth"]
+- !private ["s7CVarArgP", "expirationYear"]
+- !private ["s7CVarArgP", "getCode"]
+- !private ["s7CVarArgP", "getDataDescriptor"]
+- !private ["s7CVarArgP", "getDataValue"]
+- !private ["s7CVarArgP", "getMessages"]
+- !private ["s7CVarArgP", "getOpaqueData"]
+- !private ["s7CVarArgP", "getResultCode"]
+- !private ["s7CVarArgP", "getText"]
+- !private ["s7CVarArgP", "getTokenWithRequest"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "merchantAuthentication"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "securePaymentContainerRequest"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "token"]
+- !private ["s7CVarArgP", "webCheckOutDataType"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "AcceptNS"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKEnvironment"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cardCode"]
+- !private ["s28CustomDebugStringConvertibleP", "cardNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "clientKey"]
+- !private ["s28CustomDebugStringConvertibleP", "clientName"]
+- !private ["s28CustomDebugStringConvertibleP", "cvc"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "environment"]
+- !private ["s28CustomDebugStringConvertibleP", "expMonth"]
+- !private ["s28CustomDebugStringConvertibleP", "expYear"]
+- !private ["s28CustomDebugStringConvertibleP", "expirationMonth"]
+- !private ["s28CustomDebugStringConvertibleP", "expirationYear"]
+- !private ["s28CustomDebugStringConvertibleP", "getCode"]
+- !private ["s28CustomDebugStringConvertibleP", "getDataDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "getDataValue"]
+- !private ["s28CustomDebugStringConvertibleP", "getMessages"]
+- !private ["s28CustomDebugStringConvertibleP", "getOpaqueData"]
+- !private ["s28CustomDebugStringConvertibleP", "getResultCode"]
+- !private ["s28CustomDebugStringConvertibleP", "getText"]
+- !private ["s28CustomDebugStringConvertibleP", "getTokenWithRequest"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "merchantAuthentication"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "securePaymentContainerRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- !private ["s28CustomDebugStringConvertibleP", "webCheckOutDataType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "AcceptNS"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKEnvironment"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKHandler"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKRequest"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cardCode"]
+- !private ["s23CustomStringConvertibleP", "cardNumber"]
+- !private ["s23CustomStringConvertibleP", "clientKey"]
+- !private ["s23CustomStringConvertibleP", "clientName"]
+- !private ["s23CustomStringConvertibleP", "cvc"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "environment"]
+- !private ["s23CustomStringConvertibleP", "expMonth"]
+- !private ["s23CustomStringConvertibleP", "expYear"]
+- !private ["s23CustomStringConvertibleP", "expirationMonth"]
+- !private ["s23CustomStringConvertibleP", "expirationYear"]
+- !private ["s23CustomStringConvertibleP", "getCode"]
+- !private ["s23CustomStringConvertibleP", "getDataDescriptor"]
+- !private ["s23CustomStringConvertibleP", "getDataValue"]
+- !private ["s23CustomStringConvertibleP", "getMessages"]
+- !private ["s23CustomStringConvertibleP", "getOpaqueData"]
+- !private ["s23CustomStringConvertibleP", "getResultCode"]
+- !private ["s23CustomStringConvertibleP", "getText"]
+- !private ["s23CustomStringConvertibleP", "getTokenWithRequest"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "merchantAuthentication"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "securePaymentContainerRequest"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- !private ["s23CustomStringConvertibleP", "webCheckOutDataType"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "AcceptNS"]
+- !private ["s9EquatableP", "AcceptSDKEnvironment"]
+- !private ["s9EquatableP", "AcceptSDKHandler"]
+- !private ["s9EquatableP", "AcceptSDKRequest"]
+- ["s9EquatableP", "ENV_LIVE"]
+- ["s9EquatableP", "ENV_TEST"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "cardCode"]
+- !private ["s9EquatableP", "cardNumber"]
+- !private ["s9EquatableP", "clientKey"]
+- !private ["s9EquatableP", "clientName"]
+- !private ["s9EquatableP", "cvc"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "environment"]
+- !private ["s9EquatableP", "expMonth"]
+- !private ["s9EquatableP", "expYear"]
+- !private ["s9EquatableP", "expirationMonth"]
+- !private ["s9EquatableP", "expirationYear"]
+- !private ["s9EquatableP", "getCode"]
+- !private ["s9EquatableP", "getDataDescriptor"]
+- !private ["s9EquatableP", "getDataValue"]
+- !private ["s9EquatableP", "getMessages"]
+- !private ["s9EquatableP", "getOpaqueData"]
+- !private ["s9EquatableP", "getResultCode"]
+- !private ["s9EquatableP", "getText"]
+- !private ["s9EquatableP", "getTokenWithRequest"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "merchantAuthentication"]
+- !private ["s9EquatableP", "name"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "securePaymentContainerRequest"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "token"]
+- !private ["s9EquatableP", "webCheckOutDataType"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "AcceptNS"]
+- !private ["s8HashableP", "AcceptSDKEnvironment"]
+- !private ["s8HashableP", "AcceptSDKHandler"]
+- !private ["s8HashableP", "AcceptSDKRequest"]
+- ["s8HashableP", "ENV_LIVE"]
+- ["s8HashableP", "ENV_TEST"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "cardCode"]
+- !private ["s8HashableP", "cardNumber"]
+- !private ["s8HashableP", "clientKey"]
+- !private ["s8HashableP", "clientName"]
+- !private ["s8HashableP", "cvc"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "environment"]
+- !private ["s8HashableP", "expMonth"]
+- !private ["s8HashableP", "expYear"]
+- !private ["s8HashableP", "expirationMonth"]
+- !private ["s8HashableP", "expirationYear"]
+- !private ["s8HashableP", "getCode"]
+- !private ["s8HashableP", "getDataDescriptor"]
+- !private ["s8HashableP", "getDataValue"]
+- !private ["s8HashableP", "getMessages"]
+- !private ["s8HashableP", "getOpaqueData"]
+- !private ["s8HashableP", "getResultCode"]
+- !private ["s8HashableP", "getText"]
+- !private ["s8HashableP", "getTokenWithRequest"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "merchantAuthentication"]
+- !private ["s8HashableP", "name"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "securePaymentContainerRequest"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "token"]
+- !private ["s8HashableP", "webCheckOutDataType"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["9AcceptSDK21MerchantAuthenticatonC", "clientKey"]
+- !private ["9AcceptSDK21MerchantAuthenticatonC", "name"]
+- !private ["9AcceptSDK7MessageC", "getCode"]
+- !private ["9AcceptSDK7MessageC", "getText"]
+- !private ["9AcceptSDK8MessagesC", "getMessages"]
+- !private ["9AcceptSDK8MessagesC", "getResultCode"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSObjectC", "AcceptNS"]
+- ["So8NSObjectC", "AcceptNSConfig"]
+- ["So8NSObjectC", "AcceptNSEnvironment"]
+- ["So8NSObjectC", "AcceptNSProtocol"]
+- ["So8NSObjectC", "AcceptNSRequest"]
+- !private ["So8NSObjectC", "AcceptSDKEnvironment"]
+- !private ["So8NSObjectC", "AcceptSDKErrorResponse"]
+- !private ["So8NSObjectC", "AcceptSDKHandler"]
+- !private ["So8NSObjectC", "AcceptSDKRequest"]
+- !private ["So8NSObjectC", "AcceptSDKTokenResponse"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "cardCode"]
+- ["So8NSObjectC", "cardNumber"]
+- ["So8NSObjectC", "clientKey"]
+- ["So8NSObjectC", "clientName"]
+- ["So8NSObjectC", "cvc"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "environment"]
+- ["So8NSObjectC", "expMonth"]
+- ["So8NSObjectC", "expYear"]
+- !private ["So8NSObjectC", "expirationMonth"]
+- !private ["So8NSObjectC", "expirationYear"]
+- !private ["So8NSObjectC", "getCode"]
+- !private ["So8NSObjectC", "getDataDescriptor"]
+- !private ["So8NSObjectC", "getDataValue"]
+- !private ["So8NSObjectC", "getMessages"]
+- !private ["So8NSObjectC", "getOpaqueData"]
+- !private ["So8NSObjectC", "getResultCode"]
+- ["So8NSObjectC", "getTestToken"]
+- !private ["So8NSObjectC", "getText"]
+- ["So8NSObjectC", "getToken"]
+- !private ["So8NSObjectC", "getTokenWithRequest"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "merchantAuthentication"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "securePaymentContainerRequest"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "token"]
+- !private ["So8NSObjectC", "webCheckOutDataType"]
+- ["So16NSObjectProtocolP", "AcceptNS"]
+- !private ["So16NSObjectProtocolP", "AcceptSDKEnvironment"]
+- !private ["So16NSObjectProtocolP", "AcceptSDKHandler"]
+- !private ["So16NSObjectProtocolP", "AcceptSDKRequest"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "cardCode"]
+- !private ["So16NSObjectProtocolP", "cardNumber"]
+- !private ["So16NSObjectProtocolP", "clientKey"]
+- !private ["So16NSObjectProtocolP", "clientName"]
+- !private ["So16NSObjectProtocolP", "cvc"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "environment"]
+- !private ["So16NSObjectProtocolP", "expMonth"]
+- !private ["So16NSObjectProtocolP", "expYear"]
+- !private ["So16NSObjectProtocolP", "expirationMonth"]
+- !private ["So16NSObjectProtocolP", "expirationYear"]
+- !private ["So16NSObjectProtocolP", "getCode"]
+- !private ["So16NSObjectProtocolP", "getDataDescriptor"]
+- !private ["So16NSObjectProtocolP", "getDataValue"]
+- !private ["So16NSObjectProtocolP", "getMessages"]
+- !private ["So16NSObjectProtocolP", "getOpaqueData"]
+- !private ["So16NSObjectProtocolP", "getResultCode"]
+- !private ["So16NSObjectProtocolP", "getText"]
+- !private ["So16NSObjectProtocolP", "getTokenWithRequest"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "merchantAuthentication"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "securePaymentContainerRequest"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "token"]
+- !private ["So16NSObjectProtocolP", "webCheckOutDataType"]
+- !private ["9AcceptSDK10OpaqueDataC", "getDataDescriptor"]
+- !private ["9AcceptSDK10OpaqueDataC", "getDataValue"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s16RawRepresentableP", "ENV_LIVE"]
+- ["s16RawRepresentableP", "ENV_TEST"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["9AcceptSDK29SecurePaymentContainerRequestC", "webCheckOutDataType"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9AcceptSDK5TokenC", "cardCode"]
+- !private ["9AcceptSDK5TokenC", "cardNumber"]
+- !private ["9AcceptSDK5TokenC", "expirationMonth"]
+- !private ["9AcceptSDK5TokenC", "expirationYear"]
+- !private ["9AcceptSDK19WebCheckOutDataTypeC", "token"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AcceptNS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKEnvironment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cvc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expMonth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expYear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expirationMonth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expirationYear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDataDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDataValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getMessages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getOpaqueData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResultCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTokenWithRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "merchantAuthentication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "securePaymentContainerRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "webCheckOutDataType"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "8AcceptNSAAC"
+- "8AcceptNS0A8NSConfigC"
+- "8AcceptNS0A13NSEnvironmentO"
+- "8AcceptNS0A10NSProtocolP"
+- "8AcceptNS0A9NSRequestC"
+- !private "9AcceptSDK0A14SDKEnvironmentO"
+- !private "9AcceptSDK0A16SDKErrorResponseC"
+- !private "9AcceptSDK0A10SDKHandlerC"
+- !private "9AcceptSDK0A10SDKRequestC"
+- !private "9AcceptSDK0A16SDKTokenResponseC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "9AcceptSDK21MerchantAuthenticatonC"
+- !private "9AcceptSDK7MessageC"
+- !private "9AcceptSDK8MessagesC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "9AcceptSDK10OpaqueDataC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "9AcceptSDK29SecurePaymentContainerRequestC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9AcceptSDK5TokenC"
+- !private "9AcceptSDK19WebCheckOutDataTypeC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS-framework/AcceptSDK.framework/Modules/AcceptSDK.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS-framework/AcceptSDK.framework/Headers/AcceptSDK.h"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS.h"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS-framework/AcceptSDK.framework/Headers/AcceptSDK-Swift.h"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/build/AcceptNS.build/Debug-iphonesimulator/AcceptNS.build/unextended-module.modulemap"
+- "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS-framework/AcceptSDK.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "865d9d302a32241734961b74abcf5c7b"

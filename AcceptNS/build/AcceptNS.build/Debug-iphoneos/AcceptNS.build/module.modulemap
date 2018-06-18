@@ -1,0 +1,11 @@
+framework module AcceptNS {
+  umbrella header "AcceptNS.h"
+
+  export *
+  module * { export * }
+}
+
+module AcceptNS.Swift {
+    header "AcceptNS-Swift.h"
+    requires objc
+}

@@ -1,0 +1,10 @@
+framework module AcceptNS {
+  umbrella header "AcceptNS.h"
+
+  export *
+  module * { export * }
+}
+
+module AcceptNS.__Swift {
+    exclude header "AcceptNS-Swift.h"
+}

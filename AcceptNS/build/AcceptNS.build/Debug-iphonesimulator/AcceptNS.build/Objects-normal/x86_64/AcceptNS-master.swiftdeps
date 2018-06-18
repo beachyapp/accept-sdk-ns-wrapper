@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "8edd64d0e3514059ca8c958f1a6d0732"
+build_time: [1529317623, 488007000]
+inputs:
+  "/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/AcceptNS/AcceptNS.swift": [1529317518, 0]

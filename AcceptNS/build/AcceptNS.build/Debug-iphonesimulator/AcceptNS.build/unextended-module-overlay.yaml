@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/piotrilski/Library/Developer/Xcode/DerivedData/AcceptNS-fbuhhldebltpmfbzcszrqggiqkah/Build/Products/Debug-iphonesimulator/AcceptNS.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/piotrilski/workspace/AcceptSDKWrapper/AcceptNS/build/AcceptNS.build/Debug-iphonesimulator/AcceptNS.build/unextended-module.modulemap',
+    }]
+  }]
+}
